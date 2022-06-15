@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Background Generator</title>
+   <link rel="stylesheet" href="backgroundR.css">
+</head>
+
+<body>
+   <div id="body">
+      <header>
+         <h1 class="hTitle">Background Generator> V2.0</h1>
+         <div class="control">
+            <div id="opts">
+
+               <div class="inputss1">
+                  <input type="radio" name="gradient" id="opt1" class="opt">
+                  <span class="dopt dopt1">linear-gradient</span>
+               </div>
+               <div class="inputss1">
+                  <input type="radio" name="gradient" id="opt2" class="opt">
+                  <span class="dopt dopt2">radial-gradient</span>
+               </div>
+            </div>
+            <div class="dColors">
+              <input type="number" class="colour" id="number" min="0" max="360" value="180" placeholder="Angle">
+               <input type="color" class="colour" value="#050e8f" id="color1">
+               <input type="color" class="colour" value="#8b0404" id="color2">
+            </div>
+         </div>
+         <div class="dOutcome">
+            <div class="wrtd wrtdU">
+               <span class="coT">Header Background - Color : <br></span>
+               <span class="outcome"></span>
+            </div>
+            <div class="wrtd">
+               <span class="coT">Body Background - Color : <br></span>
+               <span class="outcome"></span>
+            </div>
+         </div>
+      </header>
+   </div>
+   <script src="background0.js"></script>
+   <!-- <script src="background1.js"></script> -->
+</body>
+
+</html>
